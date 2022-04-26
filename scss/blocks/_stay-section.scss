@@ -1,0 +1,43 @@
+.stay-section{
+    background-image: url(../../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $color-bay-wharf;
+    padding-top: 81px;
+}
+.stat-section__wrapper{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+.stay-section__email{
+    width: 100%;
+    max-width: 375px;
+    padding: 18px 35px;
+    border: 0;
+    border-radius: 3px 0px 0px 3px;
+}
+.stay-section__wrapper-heading{
+    width: 100%;
+    max-width: 188px;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    text-align: center;   
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: $color-lynx;
+    border-bottom: 1px solid #DEDEDE;
+}
+.stay-section__btn{
+    width: 100%;
+    max-width: 125px;
+    background-color: $color-white;
+    opacity: 0.28;
+    margin: 0;
+    padding: 18px 35px;
+    border: 0;
+    border-radius: 0px 3px 3px 0px;
+}
