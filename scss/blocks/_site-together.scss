@@ -1,0 +1,51 @@
+.site-together {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 131px;
+    padding-bottom: 151px;
+}
+.site-together__heading {    
+    color: $color-white;
+    font-family:  $fonts-item;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.site-together__text {
+    margin: 0;
+    margin-bottom: 31px;
+    color: $color-white;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+.site-together__link {
+    display: inline-block;
+    background-color: #DD783F;
+    color: $color-white;
+    padding: 12px 31px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+@media only screen and (max-width: 600px ) {
+    .site-together__heading{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .site-together__text{
+        width: 250px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 31px;
+        text-align: center;
+    }
+    .site-together__link{
+        font-size: 11px;
+        padding: 10px 20px;
+    }
+}
